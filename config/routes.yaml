@@ -1,3 +1,11 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+app_null:
+  path: /
+  controller: App\Controller\IndexController::index
+
+app_index:
+  path: /index
+  controller: App\Controller\IndexController::index
